@@ -1,5 +1,11 @@
-import { AppRegistry} from 'react-native';
+import React, {Component} from 'react';
 import App from './App';
 
-AppRegistry.registerComponent('myApp', () => App);
+class Container extends Component {
+    render () {
+        return (
+            <App />
+        )
+    }
+}
 
